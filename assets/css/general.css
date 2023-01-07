@@ -39,6 +39,7 @@ body {
     line-height: 1;
     font-weight: 400;
     color: var(--color-black-gray);
+    overflow-x: hidden;
 }
 
 /**
