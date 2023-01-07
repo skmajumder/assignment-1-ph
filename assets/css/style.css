@@ -135,6 +135,47 @@
 }
 
 /**
+    Section Skills
+*/
+
+.section-skills {
+    margin-bottom: 13rem;
+}
+
+.skills-box {
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.skill-single-box {
+    background-color: rgb(250, 235, 215);
+    padding: 10rem 15rem 10rem 4rem;
+    text-align: left;
+}
+.skill-icon {
+    font-size: 4rem !important;
+    margin-bottom: 2rem;
+}
+
+.skill-icon.html5 {
+    color: var(--color-orange);
+}
+
+.skill-icon.css3 {
+    color: var(--color-orange);
+}
+
+.skill-icon.wordpress {
+    color: rgba(0, 0, 255, 0.872);
+}
+
+.skill {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-black-shade);
+}
+
+/**
     Section CTA
 */
 
@@ -210,6 +251,10 @@
     gap: 1.8rem;
 }
 
+.subscribe-form {
+    margin-bottom: 3.2rem;
+}
+
 .subscribe-email {
     font-family: 'Work Sans', sans-serif;
     color: var(--color-white);
@@ -225,4 +270,9 @@
 
 .subscribe-email::placeholder {
     color: var(--color-white);
+}
+
+.copyright-text {
+    color: var(--color-white);
+    font-size: 1.6rem;
 }
