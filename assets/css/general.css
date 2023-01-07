@@ -21,6 +21,7 @@
     --color-black-gray: #444343;
     --color-black-tint: #737272;
     --color-orange: #F15B22;
+    --color-icon: #16D887;
 }
 
 /** 
@@ -86,7 +87,7 @@ body {
 */
 
 .headline-primary {
-    font-size: 6.5rem;
+    font-size: 6rem;
     color: var(--color-black-shade);
     line-height: 1.2;
     font-weight: 700;
@@ -94,7 +95,7 @@ body {
 }
 
 .headline-secondary {
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: var(--color-black-shade);
     line-height: 1.2;
     font-weight: 700;
@@ -102,7 +103,7 @@ body {
 }
 
 .headline-tertiary {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--color-black-shade);
     line-height: 1.2;
     font-weight: 700;
@@ -132,6 +133,7 @@ body {
 .container {
     max-width: 120rem;
     margin: 0 auto;
+    padding: 0 3.5rem;
 }
 
 /**
