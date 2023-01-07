@@ -27,12 +27,10 @@
 <body>
 
     <!-- Header -->
-    <header class="header">
-        <!-- Logo -->
+    <!-- <header class="header">
         <a href="#">
             <img src="assets/img/logo.png" alt="Logo" class="logo" loading="lazy" />
         </a>
-        <!-- Desktop Navigation -->
         <nav class="main-nav">
             <ul class="menu main-nav-list">
                 <li><a href="#" class="main-nav-link">Home</a></li>
@@ -40,7 +38,7 @@
                 <li><a href="#" class="main-nav-link">CTA</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
     <!-- /- Header -->
 
     <!-- Main -->
@@ -84,11 +82,11 @@
 
         <!-- Section Planning -->
         <section class="section-planning">
-            <div class="container">
+            <div class="container text-center margin-b-50">
                 <h2 class="headline-secondary">My Plans</h2>
             </div>
             <div class="container">
-                <div class="plans-list">
+                <div class="plans-list d-flex d-flex--align-center text-center">
                     <div class="plans-list--item">
                         <img src="assets/img/icons/web.png" class="plan-image" alt="Web development">
                         <p class="plan-name">Web Development</p>
@@ -115,11 +113,13 @@
         <!-- /- Section Planning -->
 
         <!-- Section CTA -->
-        <section class="section-cta cta-bg">
+        <section class="section-cta">
             <div class="container">
-                <div class="cta">
-                    <h2 class="headline-secondary">Always keep a positive mindset</h2>
-                    <a href="#" class="btn btn--white">Call Now</a>
+                <div class="cta-bg d-flex d-flex--align-center">
+                    <div class="cta">
+                        <h2 class="headline-secondary cta-headline">Always keep a positive mindset</h2>
+                        <a href="#" class="btn btn--white">Call Now</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -128,14 +128,14 @@
     <!-- /- Main -->
 
     <!-- Footer -->
-    <footer class="main-footer">
-        <div class="container d-flex">
-            <div class="footer-text-box">
-                <h2 class="headline-secondary">Future</h2>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                    alteration in some form, by injected humour, or randomized words</p>
-                <p><a href="mailto:info@gmail.com">Email : info@gmail.com</a></p>
-                <p><a href="tel:01500 00 00 00">Phone : 01500 00 00 00</a></p>
+    <footer class="main-footer footer-bg">
+        <div class="container footer d-flex">
+            <div class="footer--text-box">
+                <h2 class="headline-secondary footer--title">Future</h2>
+                <p class="footer--descriptions">There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered alteration in some form, by injected humour, or randomized words</p>
+                <p><a href="mailto:info@gmail.com" class="contact-email">Email : info@gmail.com</a></p>
+                <p><a href="tel:01500 00 00 00" class="contact-number">Phone : 01500 00 00 00</a></p>
                 <div class="social-accounts d-flex d-flex--align-center">
                     <a href="#">
                         <img src="assets/img/icons/fb.png" class="social-account" alt="">
@@ -148,11 +148,11 @@
                     </a>
                 </div>
             </div>
-            <div class="footer-subscribe-form">
-                <h3>Subscribe</h3>
-                <form action="#">
-                    <input type="email" name="email" id="email" placeholder="Enter your email">
-                    <button type="button" class="btn btn--white"></button>
+            <div class="footer--subscribe-form">
+                <h3 class="headline-tertiary footer--title">Subscribe</h3>
+                <form action="#" class="subscribe-form">
+                    <p><input type="email" class="subscribe-email" name="email" id="email" placeholder="Enter your email"></p>
+                    <p><button type="button" class="btn btn--white">Subscribe</button></p>
                 </form>
             </div>
         </div>

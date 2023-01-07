@@ -53,6 +53,7 @@ body {
     font-size: 2rem;
     font-weight: 600;
     line-height: 1.2;
+    border: 0;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -78,8 +79,12 @@ body {
     Margin
 */
 
-.margin-right-30 {
-    margin-right: 3rem;
+.margin-r-30 {
+    margin-right: 3rem !important;
+}
+
+.margin-b-50 {
+    margin-bottom: 5rem !important;
 }
 
 /**

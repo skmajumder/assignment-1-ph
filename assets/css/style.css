@@ -57,7 +57,7 @@
 
 .banner--descriptions {
     font-size: 1.6rem;
-    line-height: 1.2;
+    line-height: 1.4;
     color: var(--color-black-gray);
     margin-bottom: 3.2rem;
 }
@@ -101,4 +101,122 @@
     content: "\f00c";
     margin-right: 1.4rem;
     color: var(--color-icon);
+}
+
+/**
+    Section Planning
+*/
+
+.section-planning {
+    margin-bottom: 13rem;
+}
+
+.plans-list {
+    justify-content: space-around;
+}
+
+.plan-image {
+    margin-bottom: 2.4rem;
+}
+
+.plan-name {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-black-shade);
+    margin-bottom: 1.6rem;
+}
+
+.plan-descriptions {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--color-black-tint);
+}
+
+/**
+    Section CTA
+*/
+
+.section-cta {
+    margin-bottom: 13rem;
+}
+
+.cta-bg {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../img/watch.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.cta {
+    padding: 6rem;
+    margin-right: 47rem;
+}
+
+.cta-headline {
+    color: var(--color-white);
+    margin-bottom: 2.4rem;
+}
+
+/**
+    Footer
+*/
+.footer-bg {
+    background-color: var(--color-black-shade);
+    padding: 13rem 0;
+}
+
+.footer {
+    gap: 30rem;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer>* {
+    flex: 1;
+}
+
+.footer--title {
+    color: var(--color-white);
+    margin-bottom: 1.6rem;
+}
+
+.footer--descriptions {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    margin-bottom: 2.4rem;
+    color: var(--color-white);
+}
+
+.contact-email,
+.contact-number {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 1.6rem;
+    display: block;
+}
+
+.contact-email {
+    margin-bottom: 1.6rem;
+}
+
+.contact-number {
+    margin-bottom: 3.2rem;
+}
+
+.social-accounts {
+    gap: 1.8rem;
+}
+
+.subscribe-email {
+    color: var(--color-white);
+    font-size: 1.6rem;
+    padding: 2rem 2rem;
+    border: 1px solid var(--color-white);
+    border-radius: 8px;
+    background-color: transparent;
+    margin-bottom: 1.6rem;
+    width: 75%;
+    outline: 0;
 }
