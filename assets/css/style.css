@@ -1,0 +1,61 @@
+/* Header */
+
+.header {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+    position: relative;
+}
+
+.main-nav-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-black-gray);
+    font-size: 1.8rem;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+/**
+    Section Banner
+*/
+
+.section-banner {
+    height: 100vh;
+}
+
+.banner-bg {
+    background-image: url(../img/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+
+.banner--text-box{
+    max-width: 57rem;
+}
+
+.banner--descriptions {
+    font-size: 1.6rem;
+    line-height: 1.2;
+    color: var(--color-black-gray);
+    margin-bottom: 3.2rem;
+}

@@ -37,6 +37,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     line-height: 1;
     font-weight: 400;
+    color: var(--color-black-gray);
 }
 
 /**
@@ -49,17 +50,26 @@ body {
     display: inline-block;
     text-decoration: none;
     font-size: 2rem;
-    font-weight: 700;
-    line-height: 2.7rem;
+    font-weight: 600;
+    line-height: 1.2;
     border-radius: 5px;
     cursor: pointer;
 }
 
+.btn--primary,
 .btn--primary:link,
 .btn--primary:visited {
     padding: 1.8rem 2rem;
     color: var(--color-white) !important;
     background-color: var(--color-orange);
+}
+
+.btn--white,
+.btn--white:link,
+.btn--white:visited {
+    padding: 1.8rem 2rem;
+    background-color: var(--color-white);
+    color: var(--color-orange) !important;
 }
 
 
@@ -105,4 +115,32 @@ body {
 
 .text-center {
     text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/**
+    Container
+*/
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+/**
+    Flex display
+*/
+.d-flex {
+    display: flex;
+}
+
+.d-flex--align-center {
+    align-items: center;
 }
