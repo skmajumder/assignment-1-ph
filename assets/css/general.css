@@ -1,0 +1,108 @@
+/**
+    Universal selector
+    - The CSS universal selector ( * ) matches elements of any type.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/** 
+    CSS variable
+    - A tint is a mixture of a color with white, which increases lightness, while a shade is a mixture with black, which increases darkness.
+*/
+:root {
+    --color-white: #FFFFFF;
+    --color-white-tint: #F8F8F8;
+    --color-black: #000000;
+    --color-black-shade: #151414;
+    --color-black-gray: #444343;
+    --color-black-tint: #737272;
+    --color-orange: #F15B22;
+}
+
+/** 
+    Root element's font-size 
+    - font-size: 10px;
+    - 10px / 16px = 0.625 = 62.5%
+    - Percentage of user's browser font-size setting
+*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+}
+
+/**
+    Button
+*/
+
+.btn,
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn--primary:link,
+.btn--primary:visited {
+    padding: 1.8rem 2rem;
+    color: var(--color-white) !important;
+    background-color: var(--color-orange);
+}
+
+
+/**
+    Margin
+*/
+
+.margin-right-30 {
+    margin-right: 3rem;
+}
+
+/**
+    Headline
+*/
+
+.headline-primary {
+    font-size: 6.5rem;
+    color: var(--color-black-shade);
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.headline-secondary {
+    font-size: 4rem;
+    color: var(--color-black-shade);
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.headline-tertiary {
+    font-size: 3rem;
+    color: var(--color-black-shade);
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+/**
+    Text center
+*/
+
+.text-center {
+    text-align: center;
+}
